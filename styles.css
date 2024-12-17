@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.main {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(253, 111, 230);
+    border: 2px;
+    border-radius: 5%;
+}
+
+.item {
+    font-size: 17px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.item1 {
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+
+}
+
+.button {
+    border: 2px;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: blue;
+    color: white;
+    /* display: flex; */
+    cursor: pointer;
+
+}
+
+.footer {
+    width: 100%;
+    height: 10px;
+    z-index: -1;
+    position: absolute;
+    /* border: 2px solid; */
+}
+
+.main:hover>.footer {
+
+    z-index: 999;
+}
+
+.footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-color: white;
+    gap: 15px;
+    /* border: 5px solid green; */
+}
+
+.color1 {
+    width: 220px;
+    height: 15px;
+    /* border: 2px solid; */
+    background-color: rgb(253, 111, 230);
+    display: inline-block;
+}
+
+.color2 {
+    width: 30px;
+    height: 7px;
+    /* border: 1px solid ; */
+}
+
+.color3 {
+    width: 30px;
+    height: 15px;
+    background-color: blue;
+
+}
+
+.icon {
+    position: relative;
+    left: 15px;
+
+}
+
+.bi {
+    width: 30px;
+    height: 25px;
+    background-color: blue;
+    border-radius: 50%;
+    padding: 3px 4px 3px 3px;
+    color: white;
+}
+
+.bi:hover {
+    background-color: darkblue;
+}
